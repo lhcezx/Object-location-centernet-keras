@@ -6,7 +6,8 @@ Data augmentation
 
 
 ## Dataset
-Toloka WaterMeters dataset, download [here](https://toloka.ai/datasets) <br>
+Toloka WaterMeters dataset, download [here](https://toloka.ai/datasets) <br> put it in the dataset folder and use IO.py to generate image.txt file
+
 
 ## Folder structure
 ```
@@ -15,7 +16,12 @@ ${ROOT}
     ├── ckpt/
     │   
     ├── dataset/
-    │  
+    │   ├── image.txt
+    │   ├── data.tsv
+    │   ├── images/
+    │   ├── collage/
+    │   ├── masks/    
+    |
     ├── generator/
     │   ├── data_generator.py
     │   ├── IO.py
